@@ -1,7 +1,7 @@
-# SEAD
+# SUAP-EaD
 
-# O que é o SEAD
-O SEAD **(Ecosistema de apoio à Gestão do suap-Edu)** é um conjunto de microsserviços para apoio os gestores que oferece funções complementares à oferecidas pelo SUAP-Edu.
+# O que é o SUAP-EaD
+O SUAP-EaD **(Ecosistema para apoio ao EaD complementar a SUAP-Edu)**, abreviado como **SEAD**, é um conjunto de microsserviços para apoio os gestores que oferece funções complementares à oferecidas pelo SUAP-Edu.
 
 
 # Qual a necessidade de criar este projeto se já existe o SUAP
