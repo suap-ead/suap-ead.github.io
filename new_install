@@ -24,7 +24,7 @@ echo $SEAD_HOME
 mkdir -p $SEAD_HOME
 
 
-if [ ! -d "$destin" ]; then
+if [ ! -d "$SEAD_HOME/bin" ]; then
     git clone git@github.com:suap-ead/bin.git $SEAD_HOME/bin
 fi
 
