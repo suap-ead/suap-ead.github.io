@@ -16,7 +16,7 @@ O propósito deste repositório é servir de documentação ao **SEAD**.
 
 # Como iniciar o desenvolvimento
 
-Antes de iniciar, verifique sua [instalação do Docker e Docker Compose](docker).
+Antes de iniciar, verifique sua [instalação do Docker e Docker Compose](docker.md).
 
 
 ## Diretório e variável de ambiente padrão
