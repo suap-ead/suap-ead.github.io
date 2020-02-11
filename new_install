@@ -1,0 +1,39 @@
+#!/bin/bash
+
+if [[ -f ~/.bashrc ]]; then
+    echo  >> ~/.bashrc
+    echo "# SEAD" >> ~/.bashrc
+    echo "export SEAD_HOME=~/devel/SEAD" >> ~/.bashrc
+    source ~/.bashrc
+fi
+
+if [[ -f ~/.zshrc ]]; then
+    echo  >> ~/.zshrc
+    echo "# SEAD" >> ~/.zshrc
+    echo "export SEAD_HOME=~/devel/SEAD" >> ~/.zshrc
+    source ~/.zshrc
+fi
+
+export SEAD_HOME=~/devel/SEAD
+
+echo $SEAD_HOME
+mkdir -p $SEAD_HOME
+
+
+if [ ! -d "$destin" ]; then
+    git clone git@github.com:SEAD-cte-zl-ifrn/bin.git $SEAD_HOME/bin
+fi
+
+cd $SEAD_HOME/bin
+
+source color_logs
+
+clone_repositories
+
+echo ""
+echo "--- UNDEPLOY ----"
+./undeploy
+
+echo ""
+echo "--- DEPLOY ----"
+./deploy
