@@ -26,7 +26,7 @@ Todo o restante da documentação irá considerar que você tenha criado uma pas
 O código a seguir contem todos os comandos necessários para iniciar um ambiente de desenvolvimento.
 
 ```bash
-. <(curl https://raw.githubusercontent.com/SEAD-cte-zl-ifrn/bin/master/new_install)
+. <(curl https://raw.githubusercontent.com/suap-ead/suap-ead.github.io/master/new_install)
 source ~/.bashrc
 cd $SEAD_HOME/bin
 ```
