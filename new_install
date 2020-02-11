@@ -25,7 +25,7 @@ mkdir -p $SEAD_HOME
 
 
 if [ ! -d "$destin" ]; then
-    git clone git@github.com:SEAD-cte-zl-ifrn/bin.git $SEAD_HOME/bin
+    git clone git@github.com:SEAD/bin.git $SEAD_HOME/bin
 fi
 
 cd $SEAD_HOME/bin
