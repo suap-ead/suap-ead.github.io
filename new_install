@@ -1,17 +1,21 @@
 #!/bin/bash
 
 if [[ -f ~/.bashrc ]]; then
-    echo  >> ~/.bashrc
-    echo "# SEAD" >> ~/.bashrc
-    echo "export SEAD_HOME=~/devel/SEAD" >> ~/.bashrc
-    source ~/.bashrc
+    if ! grep -q SEAD_HOME ~/.zshrc; then;
+        echo  >> ~/.bashrc
+        echo "# SEAD" >> ~/.bashrc
+        echo "export SEAD_HOME=~/devel/SEAD" >> ~/.bashrc
+        source ~/.bashrc
+    fi
 fi
 
 if [[ -f ~/.zshrc ]]; then
-    echo  >> ~/.zshrc
-    echo "# SEAD" >> ~/.zshrc
-    echo "export SEAD_HOME=~/devel/SEAD" >> ~/.zshrc
-    source ~/.zshrc
+    if ! grep -q SEAD_HOME ~/.zshrc; then;
+        echo  >> ~/.zshrc
+        echo "# SEAD" >> ~/.zshrc
+        echo "export SEAD_HOME=~/devel/SEAD" >> ~/.zshrc
+        source ~/.zshrc
+    fi
 fi
 
 export SEAD_HOME=~/devel/SEAD
