@@ -30,14 +30,15 @@ fi
 
 cd $SEAD_HOME/bin
 
-source color_logs
-
-clone_repositories
-
 echo ""
-echo "--- UNDEPLOY ----"
+echo "--- DEPLOY ----"
 ./undeploy
 
 echo ""
-echo "--- DEPLOY ----"
-./deploy
+read -r -p "Você deseja fazer o DEPLOY? [y/N] " response
+if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
+then
+    ./deploy
+else
+    echo "Skipped"
+fi
