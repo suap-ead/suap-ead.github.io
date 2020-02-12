@@ -31,15 +31,10 @@ fi
 cd $SEAD_HOME/bin
 
 echo ""
-echo "--- DEPLOY ----"
+echo "--- UNDEPLOY ----"
 ./undeploy
 
 
 echo ""
-read -p "Você deseja fazer o DEPLOY? y/N " response < /dev/tty
-if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
-then
-    ./deploy
-else
-    echo "Skipped"
-fi
+echo "--- DEPLOY ---"
+./deploy
