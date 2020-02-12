@@ -36,7 +36,7 @@ echo "--- DEPLOY ----"
 
 
 echo ""
-read -r "Você deseja fazer o DEPLOY? [y/N] " response
+read "Você deseja fazer o DEPLOY? [y/N] " response
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
 then
     ./deploy
