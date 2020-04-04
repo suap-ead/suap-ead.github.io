@@ -38,7 +38,7 @@ Com isso, toda vez que você abrir teu terminal esta variável estará declarada
 
 Este projeto usa Docker Compose, portanto, é bom conhecermos os serviços, variáveis de ambiente e volumes antes mesmo de começarmos a desenvolver ou configurar o projeto.
 
-1.  [Services do projeto](services/.md).
+1.  [Services do projeto](services.md).
 1.  [Variáveis de ambiente](envs).
 1.  [Volumes](volumes).
 1.  [Ports](ports).
