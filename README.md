@@ -21,26 +21,17 @@ Antes de iniciar, verifique sua [instalação do Docker e Docker Compose](docker
 
 ## Diretório e variável de ambiente padrão
 
-Todo o restante da documentação irá considerar que você tenha criado uma pasta chamada `SEAD` e uma variável de ambiente chamada `$SEAD_HOME`, a qual contém o PATH para aquela pasta `SEAD` que você criou.
+Todo o restante da documentação irá considerar que você tenha criado uma pasta chamada `SEAD` e uma variável de ambiente chamada `$SEAD_HOME`, a qual contém o PATH para aquela pasta `SEAD` que você criou. O diretório padrão será em `~/devel/SEAD`.
 
-O código a seguir contem todos os comandos necessários para iniciar um ambiente de desenvolvimento.
-
-```bash
-. <(curl "https://raw.githubusercontent.com/suap-ead/suap-ead.github.io/master/new_install?$RANDOM")
-source ~/.bashrc
-cd $SEAD_HOME/bin
-```
-
-Com isso, toda vez que você abrir teu terminal esta variável estará declarada.
-
+Todo o restante da documentação irá considerar que você tenha criado uma pasta chamada `SEAD` e uma variável de ambiente chamada `$SEAD_HOME`, a qual contém path para o diretório padrão será em `~/devel/SEAD`.
 
 # Saiba mais
 
 Este projeto usa Docker Compose, portanto, é bom conhecermos os serviços, variáveis de ambiente e volumes antes mesmo de começarmos a desenvolver ou configurar o projeto.
 
 1.  [Services do projeto](services.md).
-1.  [Variáveis de ambiente](envs).
-1.  [Volumes](volumes).
-1.  [Ports](ports).
-1.  [Começando no projeto](beginning).
-1.  [Instalando](install).
+1.  [Variáveis de ambiente](envs.md).
+1.  [Volumes](volumes.md).
+1.  [Ports](ports.md).
+1.  [Começando no projeto](beginning.md).
+1.  [Instalando](install.md).
