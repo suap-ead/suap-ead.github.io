@@ -35,7 +35,7 @@ Aqui estão as variáveis de ambiente e seus valores padrões contidos em `./bin
 1. `AUTHENTICATION_BACKENDS`=django_python3_ldap.auth.LDAPBackend,django.contrib.auth.backends.ModelBackend
 
 
-# id_ldap
+## id_ldap
 
 1. `LDAP_AUTH_URL`=ldap://0.0.0.0
 1. `LDAP_AUTH_USE_TLS`=False
@@ -53,7 +53,7 @@ Aqui estão as variáveis de ambiente e seus valores padrões contidos em `./bin
 1. `LDAP_ACTIVE_VALUE`=512
 
 
-# dashboard
+## dashboard
 
 1. `DJANGO_DEBUG`=True
 1. `MY_APPS`=dashboard
@@ -67,7 +67,7 @@ Aqui estão as variáveis de ambiente e seus valores padrões contidos em `./bin
 1. `DJANGO_AUTHENTICATION_BACKENDS`=django.contrib.auth.backends.ModelBackend
 
 
-# pre_matricula
+## pre_matricula
 
 1. `DJANGO_DEBUG`=True
 1. `URL_PATH_PREFIX`=pre_matricula/
