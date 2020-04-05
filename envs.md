@@ -138,12 +138,12 @@ if DEBUG:
 1. `DJANGO_SESSION_REDIS_RETRY_ON_TIMEOUT`=False
 
 # Auth and Security
-1. `SUAP_EAD_ID_JWT_AUTHORIZE`=/ead/id/jwt/authorize/')
-1. `SUAP_EAD_ID_JWT_VALIDATE`=http://id:8000/ead/id/jwt/validate/')
-1. `SUAP_EAD_ID_JWT_LOGOUT`=http://id:8000/ead/id/logout/')
-1. `SUAP_EAD_ID_JWT_CLIENT_ID`=_SUAP_EAD_ID_JWT_CLIENT_ID_')
-1. `SUAP_EAD_ID_JWT_SECRET`=_SUAP_EAD_ID_JWT_SECRET_')
-1. `SUAP_EAD_UTILS_AUTH_JWT_BACKEND`=suap_ead.backends.PreExistentUserJwtBackend')
+1. `SUAP_EAD_ID_JWT_AUTHORIZE`=/ead/id/jwt/authorize/
+1. `SUAP_EAD_ID_JWT_VALIDATE`=http://id:8000/ead/id/jwt/validate/
+1. `SUAP_EAD_ID_JWT_LOGOUT`=http://id:8000/ead/id/logout/
+1. `SUAP_EAD_ID_JWT_CLIENT_ID`=_SUAP_EAD_ID_JWT_CLIENT_ID_
+1. `SUAP_EAD_ID_JWT_SECRET`=_SUAP_EAD_ID_JWT_SECRET_
+1. `SUAP_EAD_UTILS_AUTH_JWT_BACKEND`=suap_ead.backends.PreExistentUserJwtBackend
 1. `DJANGO_SECRET_KEY`=changeme
 1. `DJANGO_LOGIN_URL`=URL_PATH_PREFIX + 'jwt/login'
 1. `DJANGO_LOGOUT_URL`=URL_PATH_PREFIX + 'logout/'
